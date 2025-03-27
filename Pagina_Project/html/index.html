@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impactos de la IA en la Salud</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: #a8c5c5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d2c52;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        aside {
+            width: 30%;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            margin-right: 20px;
+        }
+        aside img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 65%;
+        }
+        .card {
+            width: 18rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.7s ease, box-shadow 0.7s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 2px solid #0d2c52;
+        }
+        .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+        .video-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        video {
+            width: 50%;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #0d2c52;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>LOS IMPACTOS DE LA IA SOBRE LA SALUD</header>
+    <div class="contenedor">
+        <aside>
+            <h2>ANTECEDENTES</h2>
+            <p>El uso de la inteligencia artificial (IA) en diagnósticos sanitarios plantea desafíos éticos, como se vio con el sistema <b>Mycin en los años 70</b>, que dejó de usarse debido a dudas sobre la responsabilidad en caso de <b>errores en el diagnóstico</b>.</p>
+            <p>Los problemas derivados del uso excesivo de la IA y las tecnologías de la información incluyen:</p>
+            <p>1. Impacto en la salud física y social: El uso excesivo de la IA puede generar sedentarismo y aislamiento social, afectando negativamente la salud física y mental.</p>
+            <p>2. Reducción de habilidades: La dependencia de la digitalización y la IA puede debilitar habilidades clave como la comunicación directa, la escritura y el pensamiento crítico, ya que el acceso instantáneo a la información reduce el esfuerzo cognitivo necesario para resolver problemas y fortalecer la memoria.</p>
+            <p>La falta de ética en la IA y su impacto en la salud y las habilidades humanas destacan la importancia de un uso equilibrado y responsable de la tecnología.</p>
+            <img src="../imagenes/asideImage.webp" alt="Imagen IA y Salud">
+        </aside>
+        <main>
+            <div class="card">
+                <a href="index-fisic.html"><img src="../imagenes/impacto-fisico.jpg" alt="Salud física"></a>
+                <div class="card-body">
+                    <h5>Salud física</h5>
+                    <ul>
+                        <li>Menor movilidad y sedentarismo</li>
+                        <li>Incremento de enfermedades por estrés</li>
+                        <li>Automedicación o autodiagnóstico</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <a href="index-social.html"><img src="../imagenes/impacto-social.jpg" alt="Salud social"></a>
+                <div class="card-body">
+                    <h5>Salud social</h5>
+                    <ul>
+                        <li>Aislamiento social y reducción de interacciones</li>
+                        <li>Estrés por oportunidades laborales</li>
+                        <li>Dependencia de redes sociales</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <a href="index-mental.html"><img src="../imagenes/impacto-mental.jpg" alt="Salud mental"></a>
+                <div class="card-body">
+                    <h5>Salud mental</h5>
+                    <ul>
+                        <li>Pérdida de habilidades cognitivas</li>
+                        <li>Pérdida de curiosidad y aprendizaje</li>
+                        <li>Automedicación o autodiagnóstico</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video-container">
+                <video src="videos/mi-video.mp4" autoplay muted controls></video>
+            </div>
+        </main>
+    </div>
+    <footer>&copy; 2025 Impacto de la IA en la Salud</footer>
+</body>
+</html>
